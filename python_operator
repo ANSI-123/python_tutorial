@@ -1,0 +1,55 @@
+# Operators in Python
+
+# Arithmetic Operators
+x = 23
+y = 44
+print(x + y)   # 67: Addition
+print(x - y)   # -21: Subtraction
+print(x * y)   # 1012: Multiplication
+print(x / y)   # 0.5227: Division
+print(x // y)  # 0: Floor Division (removes decimals)
+print(x % y)   # 23: Modulus (remainder)
+print(x ** 2)  # 529: Exponentiation (x raised to the power of 2)
+
+
+
+# Comparison Operators
+x = 10
+y = 5
+print(x == y)  #  Equals
+print(x != y)  #  Not equal
+print(x > y)   # Greater than
+print(x < y)   # Less than
+print(x >= y)  # Greater than or equal
+print(x <= y)  # Less than or equal
+
+
+# Assignment Operators:Inplace operators(to update variable values)
+
+# +=,-=,*=,/=,  etc 
+
+
+z = 10
+z += 5         # z = z + 5
+       
+z -= 3         # z = z - 3
+      
+z *= 2         # z = z * 2
+       
+z /= 4         # z = z / 4
+       
+z %= 5         # z = z % 5
+       
+z //= 2        # z = z // 2
+     
+z **= 3        # z = z ** 3
+
+# Z=int(input("a number"))
+# Z=Z**3
+# print(Z)   a number2
+# 8
+
+
+# logical operators
+
+# and,or,not

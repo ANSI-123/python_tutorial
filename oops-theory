@@ -1,0 +1,26 @@
+# 1. Class: A blueprint for creating objects that defines attributes and methods.
+#    Example: class Car: pass defines a class for cars.
+
+# 2. Object: An instance of a class containing specific data and behavior.
+#    Example: my_car = Car() creates an object of the Car class.
+
+# 3. Method: A function defined inside a class that operates on its objects.
+#    Example: def start(self): is a method that can start the car.
+
+# 4. Attribute: Variables defined inside a class to hold object data.
+#    Example: self.color = 'red' is an attribute storing a car's color.
+
+# 5. Function: A reusable block of code that performs a specific task; may or may not be within a class.
+#    Example: def greet(): print("Hello") is a standalone function.
+
+# 6. Inheritance: A way to create a new class using properties of an existing class.
+#    Example: class ElectricCar(Car): pass inherits attributes from Car.
+
+# 7. Data Abstraction: Hiding implementation details while showing only essential features.
+#    Example: A user interacts with a drive() method but doesn't see the engine's internal workings.
+
+# 8. Encapsulation: Restricting access to object details by bundling data and methods.
+#    Example: Private attributes _speed protect internal data from direct access.
+
+# 9. Polymorphism: A concept where a single function or method works differently based on context.
+#    Example: len() works on strings (len('car')=3) and lists (len([1, 2, 3])=3).
