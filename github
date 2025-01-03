@@ -1,0 +1,43 @@
+Push A New Project To a New Repository
+
+1. git init  # First time a project Push
+
+2. git add .
+
+3. git commit -m " date or something /  what we updated "
+
+4. git branch
+
+   * master
+
+5. git checkout -b ansi          # create a new branch ansi dont push to master
+
+   * ansi
+     master
+
+6. git branch
+   
+   * ansi
+
+7. git remote add origin  https://github.com/   this is repository link
+
+8. git push -uf origin ansi
+
+
+
+
+
+
+
+Second Time Push 
+
+1. git add .
+
+2. git commit -m "What is Updated in Our Code and Date"
+
+3. git branch
+
+   * ansi
+   master
+
+4. git push -uf origin ansi
